@@ -25,7 +25,7 @@ elif (answer == 'yes'):
         print('*'*10)
     
         computer_choice = random.choice(options)
-        print('Your choice: {} \nMy choice: {}'.format(player_choice, computer_choice))
+        print(f'Your choice: {player_choice} \nMy choice: {computer_choice}')
     
         if (computer_choice == player_choice):
             print("It's a draw!")
